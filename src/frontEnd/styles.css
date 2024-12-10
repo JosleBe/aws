@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: start;
+    background: white;
+    border-radius: 20px;
+    box-shadow:  0px 5px 5px 0px     rgba(63, 62, 62, 0.3);
+}
+
+.select-place{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.select-place select {
+    width: 180px;
+}
+
+
+
